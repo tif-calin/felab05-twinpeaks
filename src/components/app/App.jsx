@@ -1,5 +1,8 @@
 import React from 'react';
+import Quote from '../quote/Quote';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return <div className="App">
+    <Quote/>
+  </div>;
 }
